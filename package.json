@@ -1,0 +1,29 @@
+{
+  "name": "tickets-server",
+  "version": "1.0.0",
+  "description": "server/daemon for tickets app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pojok-webdev/padiapptickets-server.git"
+  },
+  "keywords": [
+    "padiapp",
+    "tickets",
+    "server"
+  ],
+  "author": "puji w prayitno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pojok-webdev/padiapptickets-server/issues"
+  },
+  "homepage": "https://github.com/pojok-webdev/padiapptickets-server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "promise-mysql": "^3.3.1"
+  }
+}
